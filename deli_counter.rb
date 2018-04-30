@@ -1,10 +1,10 @@
 katz_deli = []
 
 def line(katz_deli)
-  if katz_deli
+  if !katz_deli = ""
     puts "The line currently is: #{katz_deli}"
   else
-    puts "The line is currenty emtpy."
+    puts "The line is currenty empty."
   end
 end
 
