@@ -11,7 +11,7 @@ def line(katz_deli)
       position = position + " #{counter.to_s}. #{e}"
       counter += 1
     end
-    puts "The line is currently: #{position}"
+    puts "The line is currently:#{position}"
   end
 end
 
