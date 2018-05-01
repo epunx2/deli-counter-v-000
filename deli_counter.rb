@@ -8,7 +8,7 @@ def line(katz_deli)
     position = ""
     katz_deli.each do |e|
 
-      position = " #{counter.to_s}. #{e}"
+      position = position + " #{counter.to_s}. #{e}"
       counter += 1
     end
     puts "The line is currently: #{position}"
